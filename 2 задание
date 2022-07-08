@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <head>
+ 
+
+
+ <h1>Запись на курсы программирования </h2>
+<fieldset>
+ <p >
+<span > Имя</br>
+<input placeholder="Андрей" >
+</span >
+                            </p>
+<P>
+<p>
+ <label><input type="radio"checked="checked" name="radio-group-1" value="1"> Java</label>
+ <label><input type="radio" name="radio-group-1" value="2"> C++</label>
+ <label><input type="radio" name="radio-group-1" value="3"> Python</label>
+ <label><input type="radio" name="radio-group-1" value="4"> PHP</label>
+ <label><input type="radio" name="radio-group-1" value="5"> JavaScript</label>
+                              
+<P>
+<span> Дополнительная информация:</br>
+<textarea placeholder="Есть опыт программирования на Java"></textarea>
+</span>
+                            </p>
+
+<span>Секретное слово</br>
+<input name="guruweba_example_password" type="password" />
+<p>
+<label><input type="checkbox"  name="check-1"> С правилами ознакомился и согласен</label>
+                             </p>
+<p >
+<button type="submit">Отправить</button>
+<button type="submit">Очистить</button>
+                              </p>
+  </fieldset>
+<div>
+    <p>
+      <h>Made by andron13</h>
+    </p>
+  </div>
+</head>
+</body>
