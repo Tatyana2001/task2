@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
+
+
 <body>
-  <head>
- 
-
-
- <h1>Запись на курсы программирования </h2>
+ <h1>Запись на курсы программирования </h1>
+ <form action ="">
 <fieldset>
  <p >
 <span > Имя</br>
-<input placeholder="Андрей" >
+<input name="user" required placeholder="Андрей">
 </span >
-                            </p>
+ </p>
+
 <P>
-<p>
- <label><input type="radio"checked="checked" name="radio-group-1" value="1"> Java</label>
+
+ <label><input type="radio" required checked="checked" name="radio-group-1" value="1"> Java</label>
  <label><input type="radio" name="radio-group-1" value="2"> C++</label>
  <label><input type="radio" name="radio-group-1" value="3"> Python</label>
  <label><input type="radio" name="radio-group-1" value="4"> PHP</label>
@@ -27,13 +27,13 @@
                             </p>
 
 <span>Секретное слово</br>
-<input name="guruweba_example_password" type="password" />
+<input name="guruweba_example_password" required type="password" />
 <p>
-<label><input type="checkbox"  name="check-1"> С правилами ознакомился и согласен</label>
+<label><input type="checkbox" required name="check-1"> С правилами ознакомился и согласен</label>
                              </p>
 <p >
 <button type="submit">Отправить</button>
-<button type="submit">Очистить</button>
+<button type="reset">Очистить</button>
                               </p>
   </fieldset>
 <div>
@@ -41,5 +41,6 @@
       <h>Made by andron13</h>
     </p>
   </div>
-</head>
+</form>
 </body>
+</html>
