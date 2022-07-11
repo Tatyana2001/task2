@@ -1,13 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webbackend2</title>
+  
+  
+  <meta charset="utf-8">
+  <title>Задание 3</title>
+  <link rel="stylesheet" href="1css.css">
 </head>
 
-<img src="1.png" border=”10px”>
-<img src="2.png" border=”10px”>
-<img src="3.png" border=”10px”>
+<body>
+ <ul class="products clearfix">
+	<li class="product-wrapper">
+		<a href="3.jpg" class="product"></a>
+<h2>Card 1</h2>
+	</li>
+	<li class="product-wrapper">
+		<a href="2.jpg" class="product"></a>
+<h2>Card 2</h2>
+	</li>
+	<li class="product-wrapper">
+		<a href="1.jpg" class="product"></a>
+<h2>Card 3</h2>
+	</li>
+</ul>
 
+</div>
+</body>
 </html>
